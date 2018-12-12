@@ -74,3 +74,7 @@ git push origin --tags	//推送本地标签到远程
 
 #配置别名
 git config --global alias.co checkout
+
+#记住密码
+git config --global credential.helper store
+
